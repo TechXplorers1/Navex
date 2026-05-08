@@ -76,8 +76,17 @@ export function Footer({ onNavigate }: FooterProps) {
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-white/60">
           <p>&copy; 2026 Navex Logistics. All rights reserved.</p>
-          <p className="mt-2">Developed by TechXplorers Private limited</p>
-        </div>
+          <p className="mt-2">
+            Developed by{" "}
+            <a
+              href="https://techxplorers.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 "
+            >
+              TechXplorers Private Limited
+            </a>
+          </p>        </div>
       </div>
     </footer>
   );
